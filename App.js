@@ -55,6 +55,16 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: 'red',
     backgroundColor: 'black',
+    borderWidth: StyleSheet.hairlineWidth,
+    borderColor: 'red',
+    shadowColor: "#000",
+    shadowOffset: {
+	    width: 0,
+	    height: 12,
+    },
+    shadowOpacity: 0.58,
+    shadowRadius: 16.00,
+    elevation: 24,
   },
   bodyIngame: {
     color: 'blue',
@@ -63,6 +73,7 @@ const styles = StyleSheet.create({
     maxHeight: '60%',
     borderWidth: StyleSheet.hairlineWidth,
     borderColor: 'blue',
+    backgroundColor: 'grey',
   },
   avatarPerson: {
 
@@ -80,6 +91,14 @@ const styles = StyleSheet.create({
     borderColor: 'red',
     color: 'red',
     backgroundColor: 'black',
+    shadowColor: "#000",
+    shadowOffset: {
+	    width: 0,
+	    height: 12,
+    },
+    shadowOpacity: 0.58,
+    shadowRadius: 16.00,
+    elevation: 24,
   },
   flagsLeft: {
     position: 'absolute',
@@ -94,6 +113,14 @@ const styles = StyleSheet.create({
     borderColor: 'red',
     color: 'red',
     backgroundColor: 'black',
+    shadowColor: "#000",
+    shadowOffset: {
+	    width: 0,
+	    height: 12,
+    },
+    shadowOpacity: 0.58,
+    shadowRadius: 16.00,
+    elevation: 24,
   },
   headerInline: {
     flexDirection: 'row',
