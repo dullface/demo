@@ -247,4 +247,3 @@ class tile {
 
 let newGame = new Game();
 newGame.buildTiles();
-
